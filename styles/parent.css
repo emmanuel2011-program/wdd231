@@ -112,6 +112,7 @@
   main h2 {
     color: var(--bg-color);
     border-bottom: 3px solid var(--bg-color);
+    background-color: #ffb99a;
   }
   
   main h3:not(.country h3) {
@@ -138,6 +139,7 @@
   .country-info-box p {
     color: #000;
     text-align: center;
+  
   }
   
   .course-work-list li {
@@ -157,6 +159,8 @@
   .certificate {
     display: grid;
     gap: 2rem;
+    background-color: #d3d3d3;
+    border-radius: 0.5rem;
   }
   
   .certificate h2 {
