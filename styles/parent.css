@@ -177,8 +177,8 @@
   }
   
   .completed {
-    background-color: #4caf50;
-    color: white;
+    background-color: #ffb99a;
+    color: #000;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
