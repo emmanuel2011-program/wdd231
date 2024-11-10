@@ -83,11 +83,11 @@
   
   nav ul li:hover {
     background-color: var(--bg-color);
-    color: #3B5054;
+    color: #01526A;
   }
   
   nav ul li a:hover {
-    color: #3B5054;
+    color: burlywood;
   }
   
   main {
