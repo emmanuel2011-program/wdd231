@@ -130,6 +130,10 @@
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .course-work-box li {
+    margin: 2rem;
+  }
   
   .state-info-box {
     display: grid;
