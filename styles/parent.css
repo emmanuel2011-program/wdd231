@@ -141,13 +141,13 @@
   }
   
   .state-info-box p {
-    color: #000;
+    color:rgba(17, 31, 45, 0.5);;
     text-align: center;
   
   }
   
   .course-work-list li {
-    color: #000;
+    color: rgba(17, 31, 45, 0.5);;
   }
   
   .course-work-list {
@@ -168,7 +168,7 @@
   }
   
   .certificate h2 {
-    color: #000;
+    color:rgba(17, 31, 45, 0.5);;
   }
   
   .buttons {
@@ -178,7 +178,7 @@
   
   .completed {
     background-color: #ffb99a;
-    color: #000;
+    color:rgba(17, 31, 45, 0.5);;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -186,7 +186,7 @@
   
   .not-completed {
     background-color: #d3d3d3;
-    color: black;
+    color: rgba(17, 31, 45, 0.5);;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -201,7 +201,7 @@
     border: 1px solid rgba(0, 0, 0, 0.3);
     padding: 3px 7px 6px;
     background-color: #eee;
-    color: #000;
+    color:rgba(17, 31, 45, 0.5);;
     width: 100%;
     height: 5rem;
   }
