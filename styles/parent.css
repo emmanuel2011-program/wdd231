@@ -9,8 +9,8 @@
     --body-text-clamp: clamp(1.6rem, calc(1.8rem + 0.97vw), 2rem);
     --header-bg: rgba(223, 247, 254, 0.7);
     --section-bg: rgba(17, 31, 45, 0.5);
-    --section-header: linear-gradient(147deg, #ffb99a 0%, #ffdbc5 100%);
-    --bg-color: #fff0e0;
+    --section-header: linear-gradient(147deg, #fff0e0 0%, #ffdbc5 100%);
+    --bg-color:#ffb99a ;
   }
   
   *,
@@ -163,7 +163,7 @@
   .certificate {
     display: grid;
     gap: 2rem;
-    background-color: #d3d3d3;
+    background-color: #ffdbc5;
     border-radius: 0.5rem;
   }
   
