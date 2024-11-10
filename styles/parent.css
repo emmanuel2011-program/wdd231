@@ -7,10 +7,10 @@
     --fluid-text-2: clamp(1.44rem, calc(1.25rem + 0.97vw), 2rem);
     --fluid-text-3: clamp(1.73rem, calc(1.4rem + 1.63vw), 2.66rem);
     --body-text-clamp: clamp(1.6rem, calc(1.8rem + 0.97vw), 2rem);
-    --header-bg: rgba(223, 247, 254, 0.7);
-    --section-bg: black;
+    --header-bg: #01526A;
+    --section-bg:#3B5054;
     --section-header: linear-gradient(147deg, #ffb99a 0%, #ffdbc5 100%);
-    --bg-color: #fff0e0;
+    --bg-color: #FFEDE5;
   }
   
   *,
@@ -60,8 +60,8 @@
   }
   
   nav {
-    background-color: #000;
-    color: #fff;
+    background-color: #ffede5;
+    color: #3B5054;
     position: relative;
     display: grid;
   }
@@ -77,17 +77,17 @@
   
   nav ul li a:link,
   nav ul li a:visited {
-    color: #fff;
+    color:#3B5054;
     text-decoration: none;
   }
   
   nav ul li:hover {
     background-color: var(--bg-color);
-    color: #000;
+    color: #3B5054;
   }
   
   nav ul li a:hover {
-    color: #000;
+    color: #3B5054;
   }
   
   main {
@@ -112,13 +112,13 @@
   main h2 {
     color: var(--bg-color);
     border-bottom: 3px solid var(--bg-color);
-    background-color: #ffb99a;
+    background-color: #FFEDE5;
   }
   
   main h3:not(.country h3) {
     background: var(--section-header);
     border-radius: 0.5rem;
-    color: #000;
+    color: #3B5054;
   }
   
   main :where(section, h3) {
@@ -141,17 +141,17 @@
   }
   
   .state-info-box p {
-    color:black;
+    color: #3B5054;
     text-align: center;
   
   }
   
   .course-work-list li {
-    color: black;
+    color: #3B5054;
   }
   
   .course-work-list {
-    background-color: #ffb99a;
+    background-color: #FFEDE5;
     border-radius: 0.5rem;
   }
   
@@ -163,12 +163,12 @@
   .certificate {
     display: grid;
     gap: 2rem;
-    background-color: #d3d3d3;
+    background-color: #FFEDE5;
     border-radius: 0.5rem;
   }
   
   .certificate h2 {
-    color:black;
+    color: #3B5054;
   }
   
   .buttons {
@@ -177,7 +177,7 @@
   }
   
   .completed {
-    background-color: #ffb99a;
+    background-color: #01526A;
     color:black;
     padding: 10px;
     margin: 5px;
@@ -185,8 +185,8 @@
   }
   
   .not-completed {
-    background-color: #d3d3d3;
-    color: black;
+    background-color: #ffb99a;
+    color: #3B5054;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
@@ -200,7 +200,7 @@
     font-size: 1.5rem;
     border: 1px solid black;
     padding: 3px 7px 6px;
-    background-color: #eee;
+    background-color: #01526A;
     color:black;
     width: 100%;
     height: 5rem;
