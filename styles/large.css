@@ -1,4 +1,4 @@
-@media only screen and (min-width: 56.25em) {
+@media only screen and (min-width: 50.25em) {
   html {
     font-size: 62.5%;
   }
@@ -43,8 +43,9 @@
 
   .course-work-list {
     grid-column: 1/ 3;
+    
   }
-
+  
   .state-info-box {
     grid-column: 3 / 4;
   
@@ -62,4 +63,5 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  
 }

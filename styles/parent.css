@@ -129,11 +129,14 @@
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+    padding: 20px; /* Optional padding for inner spacing */
+    
   }
 
   .course-work-box li {
     margin: 2rem;
   }
+  
   
   .state-info-box {
     display: grid;
@@ -153,6 +156,7 @@
   .course-work-list {
     background-color: #ffb99a;
     border-radius: 0.5rem;
+    
   }
   
   .state-img-box img {
@@ -191,7 +195,10 @@
     margin: 5px;
     border-radius: 5px;
   }
-  
+  .total-credit {
+    background-color: #d3d3d3;
+    color: #000;
+  }
   footer {
     text-align: center;
     background-color: #ffb99a;
