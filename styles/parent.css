@@ -29,9 +29,12 @@
   body {
     font-family: var(--font-family);
     font-size: var(--fluid-text-2);
+    align-items: center;
     
   }
-  
+  .state-info-box img {
+    width: 100%;
+  }
   
   header,
   footer {
@@ -42,7 +45,6 @@
   header {
     font-size: var(--fluid-text-2);
     padding: 1em;
-  
     display: flex;
     justify-content: center;
     align-items: center;
