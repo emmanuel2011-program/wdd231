@@ -29,7 +29,9 @@
   body {
     font-family: var(--font-family);
     font-size: var(--fluid-text-2);
+    
   }
+  
   
   header,
   footer {
@@ -93,6 +95,7 @@
   main {
     color: var(--bg-color);
     padding: 2rem;
+
   }
   
   header img {
