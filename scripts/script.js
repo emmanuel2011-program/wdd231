@@ -35,30 +35,48 @@ function filterCourses(type) {
     filteredCourses = courses.filter((course) => course.type === type);
   }
   displayCourses(filteredCourses);
+  displayTotalCredits(filteredCourses);
+
 }
 
-// Initial display of all courses
-displayCourses(courses);
+// Function to display total credits
 function displayTotalCredits(courses) {
   const totalCredits = courses.reduce((sum, course) => sum + course.credits, 0);
   const totalCreditsElement = document.getElementById('totalCredits');
   totalCreditsElement.textContent = `Total Credits: ${totalCredits}`;
 }
-window.onload = () => {
-  displayCourses(courses);
-  displayTotalCredits(courses);
-};
-// Initial display of all courses and total credits
-window.onload = () => {
-  displayCourses(courses);
-  displayTotalCredits(courses);
-
 
 // Menu toggle functionality
-const menuButton = document.getElementById("menu");
-const navigationList = document.querySelector("ul.navigation");
+function toggleMenu() {
+  const menuButton = document.getElementById("menu");
+  const navigationList = document.querySelector("ul.navigation");
+  
+  // Toggle 'open' class on both the menu and the navigation list
+  menuButton.classList.toggle("open");
+  navigationList.classList.toggle("open"); // Show or hide the menu items
+}
+
+// Wait for the window to load before initializing event listeners and displaying content
+window.onload = () => {
+  // Initial display of courses and total credits
+  displayCourses(courses);
+  displayTotalCredits(courses);
+
+  // Add event listener to the menu button for mobile menu toggle
+  const menuButton = document.getElementById("menu");
+  if (menuButton) {
+    menuButton.addEventListener("click", toggleMenu);
+  }
+  // Add event listeners for filter buttons
+  document.getElementById("filter-all").addEventListener("click", () => {
+    filterCourses("all");
+  });
+  document.getElementById("filter-cse").addEventListener("click", () => {
+    filterCourses("CSE");
+  });
+  document.getElementById("filter-wdd").addEventListener("click", () => {
+    filterCourses("WDD");
+  });
+
+
 };
-menuButton.addEventListener("click", () => {
-  navigationList.classList.toggle("open");
-  menuButton.classList.toggle("open"); // Toggles icon between ☰ and ❎
-});
