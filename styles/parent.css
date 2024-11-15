@@ -226,6 +226,7 @@
   
   #menu.open::before {
     content: "❎";
+    
   }
   #hamburger {
     display: flex;
