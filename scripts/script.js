@@ -8,12 +8,12 @@ document.getElementById(
 
 // Courses array
 const courses = [
-  { name: "CSE 110", type: "CSE", completed: true, credits: 3 },
-  { name: "WDD 130", type: "WDD", completed: true, credits: 4},
-  { name: "CSE 111", type: "CSE", completed: true, credits: 3 },
-  { name: "CSE 210", type: "CSE", completed: true, credits: 2 },
-  { name: "WDD 131", type: "WDD", completed: true, credits: 3},
-  { name: "WDD 231", type: "WDD", completed: false, credits: 3 },
+  { name: "CSE 110", type: "CSE", completed: true, credits: 2},
+  { name: "WDD 130", type: "WDD", completed: true, credits: 2},
+  { name: "CSE 111", type: "CSE", completed: true, credits: 2},
+  { name: "CSE 210", type: "CSE", completed: true, credits: 2},
+  { name: "WDD 131", type: "WDD", completed: true, credits: 2},
+  { name: "WDD 231", type: "WDD", completed: false, credits: 2},
 ];
 
 // Function to display courses

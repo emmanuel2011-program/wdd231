@@ -165,7 +165,7 @@
   }
   
   .state-img-box img {
-    width: 100%;
+    width: 30%;
     height: auto;
   }
   
@@ -226,6 +226,11 @@
   
   #menu.open::before {
     content: "❎";
+  }
+  #hamburger {
+    display: flex;
+    display: none; 
+    justify-content: center;
   }
   
   .navigation li {
