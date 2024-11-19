@@ -832,7 +832,9 @@
   .contact-box address  {
     color: #000;
   }
-  
+  .copyright-box {
+    color: #000;
+  }
   @media only screen and (min-width: 37.5em) {
     .logo-box {
       width: 15rem;
