@@ -752,12 +752,13 @@
     margin-block: 1em;
     padding-block: 1.5em;
     padding-inline: 1em;
+  
     
   }
   
   .member-card {
     width: 80%;
-    background-color: #fff;
+    background-color:green;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -858,7 +859,6 @@
     .news-box {
       grid-column: 1 / 3;
       grid-row: 2 / 4;
-  
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: min-content repeat(2, 1fr);
@@ -1002,7 +1002,6 @@
       text-align: left;
       border-radius: 0;
       box-shadow: none;
-  
       flex-direction: row;
       align-items: center;
       gap: 2em;
