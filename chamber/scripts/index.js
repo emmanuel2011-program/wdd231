@@ -408,6 +408,7 @@ function displayCalender() {
     }
   }
 }
+
 displayCalender();
 
 ///////////////////////////////////////////////////////////
