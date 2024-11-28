@@ -8,7 +8,7 @@
     --optional-color: #d68c45;
     --optional2-color: #f90a39;
     --calnder-text-color: #1d1d1d;
-    --bg-color: #f1f1fb;
+    --bg-color: #1010be;
   
     --np-membership: #125b50;
     --bronze-membership: #cd5c08;
@@ -757,7 +757,7 @@
   }
   .member-card {
     width: 80%;
-    background-color: #fff;
+    background-color: #1010be;
     display: flex;
     flex-direction: column;
     gap: 2rem;
