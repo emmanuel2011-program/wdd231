@@ -795,12 +795,12 @@
   }
   
   .member-card .member-info-box a {
-    color: var(--optional-color);
+    color: #000;
   }
   
   .member-card .member-info-box a:active,
   .member-card .member-info-box a:visited {
-    color: var(--primary-color);
+    color: #000;
   }
   
   .grid {
