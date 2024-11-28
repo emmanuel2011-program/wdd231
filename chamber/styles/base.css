@@ -757,7 +757,7 @@
   }
   .member-card {
     width: 80%;
-    background-color: #1010be;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     gap: 2rem;
