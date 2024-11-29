@@ -1,0 +1,36 @@
+[
+    {
+        "level": "NP Membership",
+        "description": "For non-profit organizations with no fee.",
+        "benefits": [
+            "Free membership",
+            "Access to non-profit events"
+        ]
+    },
+    {
+        "level": "Bronze Membership",
+        "description": "Basic membership with limited benefits.",
+        "benefits": [
+            "Discounts on events",
+            "Basic support services"
+        ]
+    },
+    {
+        "level": "Silver Membership",
+        "description": "Intermediate membership with additional perks.",
+        "benefits": [
+            "Discounts on events",
+            "Access to premium content",
+            "Priority support"
+        ]
+    },
+    {
+        "level": "Gold Membership",
+        "description": "Premium membership with all the benefits.",
+        "benefits": [
+            "VIP event access",
+            "Exclusive promotions",
+            "Free advertising on the website"
+        ]
+    }
+]
