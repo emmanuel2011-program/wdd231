@@ -44,3 +44,18 @@ fetch('membership.json')
     .catch(error => {
         console.error('Error loading membership data:', error);
     });
+    // Function to populate the membership level dropdown
+    function populateMembershipLevels() {
+        const selectElement = document.getElementById('membership-level');
+    
+        // Loop through the membership levels and create an <option> for each
+        membershipData.membershipLevels.forEach(level => {
+            const option = document.createElement('option');
+            option.value = level;
+            option.textContent = level;
+            selectElement.appendChild(option);
+        });
+    }
+  
+    // Call the function to populate the dropdown
+    populateMembershipLevels();
