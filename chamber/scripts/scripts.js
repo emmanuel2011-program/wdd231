@@ -15,12 +15,12 @@ document.getElementById('timestamp').textContent = urlParams.get('timestamp');
 fetch('membership.json')
     .then(response => response.json())
     .then(data => {
-        const membershipCardsContainer = document.getElementById('membership-cards');
+        const membershipCardsContainer = document.getElementById('membership-level');
 
         // Loop through each membership level and create a card
         data.forEach(membership => {
             const card = document.createElement('div');
-            card.classList.add('membership-card');
+            card.classList.add('membership-level');
 
             const cardTitle = document.createElement('h3');
             cardTitle.textContent = membership.level;
