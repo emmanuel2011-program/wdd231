@@ -61,89 +61,217 @@
                     </svg> JOIN</a></li>
             </ul>
         </nav>
-
-        <div class="header-box">
-            <div class="header-intro">
-                <h1>Welcome to Suleja Chamber of Commerce</h1>
-                <span class="motto-text">Empowering Business, Building Community</span>
-                <p>Join us in the journey to empower businesses, uplift communities, and create a brighter tomorrow. We are dedicated to fostering collaboration, driving economic growth, and building lasting connections.</p>
-
-                <div class="cta-box">
-                    <a href="join.html" role="button" class="btn-join">JOIN US</a>
-                    <a href="discover.html" role="button" class="btn-explore">EXPLORE</a>
-                </div>
-            </div>
-
-            <div class="socials-box">
-                <a href="https://www.instagram.com/emmanonsookoye/" target="_blank" class="social-links" aria-label="Go to Emma's Instagram page">
-                    <svg><use xlink:href="images/sprite.svg#icon-instagram-with-circle"></use></svg>
-                </a>
-                <a href="https://www.linkedin.com/in/emmanuel-okoye-212879296/" target="_blank" class="social-links" aria-label="Go to Emma's LinkedIn account">
-                    <svg><use xlink:href="images/sprite.svg#icon-linkedin-with-circle"></use></svg>
-                </a>
-                <a href="https://web.facebook.com/emma.okoye.967/" target="_blank" class="social-links" aria-label="Go to Emma's Facebook page">
-                    <svg><use xlink:href="images/sprite.svg#icon-facebook"></use></svg>
-                </a>
-                <a href="https://www.youtube.com/" target="_blank" class="social-links" aria-label="Go to Youtube.com homepage">
-                    <svg><use xlink:href="images/sprite.svg#icon-youtube-with-circle"></use></svg>
-                </a>
-            </div>
-        </div>
     </header>
-
-    <!-- Membership Form Section -->
-    <h1>Membership Form</h1>
-    
-    <form id="membership-form" action="thankyou.html" method="get">
-        <!-- First Name -->
-        <label for="first-name">First Name:</label>
-        <input type="text" id="first-name" name="first-name" required autocomplete="given-name">
-
-        <!-- Last Name -->
-        <label for="last-name">Last Name:</label>
-        <input type="text" id="last-name" name="last-name" required autocomplete="family-name">
-
-        <!-- Organizational Title -->
-        <label for="title">Organizational Title:</label>
-        <input type="text" id="title" name="title" required pattern="[A-Za-z\s\-]{7,}" title="Only letters, spaces, and hyphens are allowed, minimum 7 characters" autocomplete="organization-title">
-
-        <!-- Email Address -->
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required autocomplete="email" placeholder="example@example.com">
-
-        <!-- Mobile Phone Number -->
-        <label for="phone">Mobile Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required autocomplete="tel">
-
-        <!-- Business/Organization Name -->
-        <label for="organization-name">Business/Organization Name:</label>
-        <input type="text" id="organization-name" name="organization-name" required autocomplete="organization">
-
-        <!-- Membership Level -->
-        <label for="membership-level">Membership Level:</label>
-        <select id="membership-level" name="membership-level" required size="0">
-            <option value="NP Membership">NP Membership</option>
-            <option value="Bronze Membership">Bronze Membership</option>
-            <option value="Silver Membership">Silver Membership</option>
-            <option value="Gold Membership">Gold Membership</option>
-        </select>
-
-        <!-- Business/Organization Description -->
-        <label for="description">Business/Organization Description:</label>
-        <textarea id="description" name="description" rows="4" required></textarea>
-
-        <!-- Hidden Timestamp -->
-        <input type="hidden" id="timestamp" name="timestamp">
-
-        <!-- Submit Button -->
-         <br>
-         <br>
-        <button type="submit">Submit</button>
-    </form>
-
-    <script src="scripts/scripts.js" defer></script>
-
-    <!-- Footer Section -->
+    <main>
+        <section>
+          <div class="join-cta-text">
+            <h1>
+              Elevate Your Business: Become a Proud Member of the Lynnwood Chamber
+            </h1>
+          </div>
+  
+          <div class="form-container">
+            <div class="svg-box">
+              <img
+                src="images/undraw_join.svg"
+                width="511"
+                height="532"
+                alt="Svg image of a man illustration giving thumbs up "
+              />
+            </div>
+  
+            <div class="form-box">
+              <form action="thankyou.html" method="get">
+                <div class="forms">
+                  <label class="top">
+                    First Name
+                    <span class="asterisk">*</span>
+                    <input type="text" name="fname" id="fname" required />
+                  </label>
+  
+                  <label class="top">
+                    Last Name
+                    <span class="asterisk">*</span>
+                    <input type="text" name="lname" id="lname" required />
+                  </label>
+  
+                  <label class="top">
+                    Title/Postion
+                    <input
+                      type="text"
+                      name="title"
+                      id="title"
+                      pattern="/^[A-Za-z -]{7,}$/"
+                    />
+                  </label>
+  
+                  <label class="top">
+                    Email address
+                    <span class="asterisk">*</span>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="example@domain.com"
+                      required
+                    />
+                  </label>
+  
+                  <label class="top">
+                    Phone number
+                    <span class="asterisk">*</span>
+                    <input type="tel" name="phone" id="phone" required />
+                  </label>
+  
+                  <label class="top">
+                    Business/Organization name
+                    <span class="asterisk">*</span>
+                    <input
+                      type="text"
+                      name="company-name"
+                      id="company-name"
+                      required
+                    />
+                  </label>
+  
+                  <div>
+                    Membership Level
+                    <span class="asterisk">*</span>
+                  </div>
+                  <label class="side-by-side np">
+                    <input type="radio" name="membership" id="np-membership" />
+                    NP Membership
+                  </label>
+                  <label class="side-by-side bronze">
+                    <input
+                      type="radio"
+                      name="membership"
+                      id="bronze-membership"
+                    />
+                    Bronze Membership
+                  </label>
+                  <label class="side-by-side silver">
+                    <input
+                      type="radio"
+                      name="membership"
+                      id="silver-membership"
+                    />
+                    Silver Membership
+                  </label>
+                  <label class="side-by-side gold">
+                    <input type="radio" name="membership" id="gold-membership" />
+                    Gold Membership
+                  </label>
+  
+                  <label class="top">
+                    Description
+                    <span class="asterisk">*</span>
+                    <textarea name="textarea" id="textarea"></textarea>
+                  </label>
+  
+                  <label class="top">
+                    <input type="hidden" name="timestamp" />
+                  </label>
+  
+                  <input type="submit" value="Join Chamber" />
+                </div>
+  
+                <div class="benefits-box">
+                  <div class="membership-card">
+                    <h2>🙏🏽 NP (Non-Profit) Membership</h2>
+                    <button type="button" class="modal-open" data-modal="npModal">
+                      Learn More
+                    </button>
+                  </div>
+                  <div class="membership-card">
+                    <h2>🥉 Bronze Membership</h2>
+                    <button
+                      type="button"
+                      class="modal-open"
+                      data-modal="bronzeModal"
+                    >
+                      Learn More
+                    </button>
+                  </div>
+                  <div class="membership-card">
+                    <h2>🥈 Silver Membership</h2>
+                    <button
+                      type="button"
+                      class="modal-open"
+                      data-modal="silverModal"
+                    >
+                      Learn More
+                    </button>
+                  </div>
+                  <div class="membership-card">
+                    <h2>🥇 Gold Membership</h2>
+                    <button
+                      type="button"
+                      class="modal-open"
+                      data-modal="goldModal"
+                    >
+                      Learn More
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <div id="npModal" class="modal">
+                <div class="modal-content">
+                  <h3>NP (Non-Profit) Membership Benefits</h3>
+                  <ul>
+                    <li>Reduced Membership Fees</li>
+                    <li>Access to Networking Events</li>
+                    <li>Visibility</li>
+                    <li>Educational Resources</li>
+                  </ul>
+                  <button class="modal-close">Close</button>
+                </div>
+              </div>
+  
+              <div id="bronzeModal" class="modal">
+                <div class="modal-content">
+                  <h3>Bronze Membership Benefits</h3>
+                  <ul>
+                    <li>Enjoy standard membership benefits</li>
+                    <li>Marketing Opportunities</li>
+                    <li>Business Workshops</li>
+                    <li>Access to Member Discounts</li>
+                  </ul>
+                  <button class="modal-close">Close</button>
+                </div>
+              </div>
+  
+              <div id="silverModal" class="modal">
+                <div class="modal-content">
+                  <h3>Silver Membership Benefits</h3>
+                  <ul>
+                    <li>Enhanced Visibility</li>
+                    <li>Event Sponsorship</li>
+                    <li>Premium Marketing</li>
+                    <li>Exclusive Workshops</li>
+                  </ul>
+                  <button class="modal-close">Close</button>
+                </div>
+              </div>
+  
+              <div id="goldModal" class="modal">
+                <div class="modal-content">
+                  <h3>Gold Membership Benefits</h3>
+                  <ul>
+                    <li>Premier Visibility</li>
+                    <li>VIP Events</li>
+                    <li>Marketing Concierge</li>
+                    <li>Thought Leadership</li>
+                    <li>Custom Solutions</li>
+                  </ul>
+                  <button class="modal-close">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+        
     <footer>
         <div class="contact-box">
             <p class="footer-captions">Contact Us</p>
