@@ -1095,7 +1095,7 @@
 }
 
 .asterisk {
-  color: var(--optional2-color);
+  color: #000;
 }
 
 .form-container form input:not([type="radio"]) {
