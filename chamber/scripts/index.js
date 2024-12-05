@@ -33,6 +33,36 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(error => console.error("Error loading members:", error));
   }
 });
+ // Get all "Learn More" buttons
+ const openButtons = document.querySelectorAll(".modal-open");
+ const closeButtons = document.querySelectorAll(".modal-close");
+ const modals = document.querySelectorAll(".modal");
+
+ // Function to open a modal
+ openButtons.forEach((button) => {
+   button.addEventListener("click", () => {
+     const modalId = button.getAttribute("data-modal");
+     const modal = document.getElementById(modalId);
+     if (modal) modal.style.display = "flex";
+   });
+ });
+
+ // Function to close a modal
+ closeButtons.forEach((button) => {
+   button.addEventListener("click", (e) => {
+     const modal = e.target.closest(".modal");
+     if (modal) modal.style.display = "none";
+   });
+ });
+
+ // Close modal when clicking outside content
+ modals.forEach((modal) => {
+   modal.addEventListener("click", (e) => {
+     if (e.target === modal) {
+       modal.style.display = "none";
+     }
+   });
+ });
 
 
 const nav = document.querySelector(".header-nav");
