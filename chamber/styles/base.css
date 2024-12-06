@@ -7,7 +7,7 @@
     --default-color: #eef0f4;
     --optional-color: #d68c45;
     --optional2-color: #f90a39;
-    --calnder-text-color: #1d1d1d;
+    --calender-text-color: #1d1d1d;
     --bg-color: #1010be;
   
     --np-membership: #125b50;
@@ -678,7 +678,7 @@
   
   address a,
   .quick-link-box a {
-    color: #444444d1;
+    color: #2d2d2dd1;
   }
   
   address,
