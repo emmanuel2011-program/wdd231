@@ -16,3 +16,4 @@ document.addEventListener("DOMContentLoaded", () => {
       if (element) element.textContent = fields[key];
     });
   });
+  

@@ -1178,8 +1178,7 @@
   }
 
   .modal {
-  visibility: hidden; /* Hidden by default */
-  opacity: 0;
+  display: none; /* Hidden by default */
   position: fixed;
   top: 0;
   left: 0;
