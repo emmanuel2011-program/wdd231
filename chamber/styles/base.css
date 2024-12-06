@@ -1019,128 +1019,128 @@
   /* ----------------------------------------------------- */
 /* ---------------------- JOIN PAGE SECTION --------------- */
 /* ----------------------------------------------------- */
-.join-page-body section,
-.thankyou-page-body {
-  background-color: #eef0f4;
+    .join-page-body section,
+    .thankyou-page-body {
+     background-color: #eef0f4;
   
-}
+    }
 
-.join-page-body section {
-  padding: 3em 2em;
-}
+    .join-page-body section {
+    padding: 3em 2em;
+    }
 
-.join-page-body .join-cta-text {
-  font-family: var(--paragraph-font);
-  font-style: italic;
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 1em 1.5em;
-}
+    .join-page-body .join-cta-text {
+    font-family: var(--paragraph-font);
+    font-style: italic;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1em 1.5em;
+    }
 
-.form-container {
-  display: grid;
-  flex-direction: column;
-  align-items: center;
-  justify-items: center;
-  gap: 2rem;
-  box-shadow: var(--box-shadow-all-4sides-cleaner);
-}
+    .form-container {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
+    box-shadow: var(--box-shadow-all-4sides-cleaner);
+    }
 
-.form-container .svg-box {
-  width: 70%;
-}
+    .form-container .svg-box {
+    width: 70%;
+    }
 
-.form-container .svg-box img {
-  width: 100%;
-  height: 80%;
-}
+    .form-container .svg-box img {
+    width: 100%;
+    height: 80%;
+    }
 
-.form-container form {
-  background: var(--secondary-color);
-  backdrop-filter: var(--blur-effect);
-  width: 100%;
-  padding-inline: 1em;
-  padding-block-start: 0.75em;
-  padding-block-end: 1.5em;
-  border-radius: 0.5rem;
+    .form-container form {
+    background: var(--secondary-color);
+    backdrop-filter: var(--blur-effect);
+    width: 100%;
+    padding-inline: 1em;
+    padding-block-start: 0.75em;
+    padding-block-end: 1.5em;
+    border-radius: 0.5rem;
 
-  display: grid;
-}
+    display: grid;
+  }
 
-.form-container form label.top {
+  .form-container form label.top {
   display: block;
   margin-block-start: 2.5rem;
-}
+  }
 
-.form-container form div,
-.side-by-side {
+  .form-container form div,
+  .side-by-side {
   display: block;
-}
+  }
 
-.form-container form div {
+  .form-container form div {
   margin-block-start: 2.5rem;
   /* margin-block-end: .5rem; */
-}
+  }
 
-.side-by-side {
+  .side-by-side {
   padding-block-start: 1rem;
   display: flex;
   align-items: center;
   gap: 3px;
-}
+  }
 
-.form-container input[type="radio"] {
-  width: 2rem;
+  .form-container input[type="radio"] {
+   width: 2rem;
   height: 2rem;
-}
+  }
 
-.asterisk {
+  .asterisk {
   color: #000;
-}
+  }
 
-.form-container form input:not([type="radio"]) {
+  .form-container form input:not([type="radio"]) {
   width: 100%;
   max-width: 35rem;
   height: 4.4rem;
-}
+  }
 
-.form-container form label.top input:required {
+  .form-container form label.top input:required {
   outline: 1px solid var(--optional2-color);
-}
+  }
 
-.form-container form label.top input:required:valid {
+  .form-container form label.top input:required:valid {
   outline-color: lime;
-}
+  }
 
-.form-container textarea {
+  .form-container textarea {
   resize: vertical;
   width: 100%;
   max-width: 35rem;
-}
+  }
 
-.form-container form input:not([type="radio"]),
-.form-container .form-container form textarea {
+  .form-container form input:not([type="radio"]),
+  .form-container .form-container form textarea {
   display: block;
   color: #555;
   font-size: max(1.8rem, 1em);
   padding: 0.25em 0.5em;
   border: 2px solid var(--input-border);
   border-radius: 4px;
-}
+  }
 
-.form-container form input:not(textarea) {
+  .form-container form input:not(textarea) {
   line-height: 1;
-}
+  }
 
-.form-container form input:focus:not([type="radio"]),
-.form-container form textarea:focus {
+  .form-container form input:focus:not([type="radio"]),
+  .form-container form textarea:focus {
   border-color: var(--tertiary-color);
   box-shadow: 0 0 0 3px hsla(245, 100%, calc(42% + 40%), 0.8);
   outline: 3px solid transparent;
   transition: 180ms box-shadow ease-in-out;
-}
+  }
 
-.form-container form input[type="submit"] {
+  .form-container form input[type="submit"] {
   border: none;
   color: white;
   background-color: var(--primary-color);
@@ -1149,34 +1149,34 @@
   padding-block: 0.75rem;
   padding-inline: 1.5rem;
   box-shadow: var(--box-shadow-effect);
-}
+  }
 
-.benefits-box div {
+  .benefits-box div {
   background-color: #fff;
   width: 80%;
   padding-block: 1.5em;
   padding-inline: 1.5em;
   border-radius: 1rem;
   margin: 0 auto;
-}
+  }
 
-.modal h2 {
+  .modal h2 {
   font-size: 2rem;
   font-family: var(--heading-font);
   text-align: center;
   margin-block-end: 1rem;
-}
+  }
 
-.modal ul {
+  .modal ul {
   list-style: none;
   margin-inline-start: 1.5rem;
-}
+  }
 
-.modal ul ::marker {
+  .modal ul ::marker {
   content: "✓ ";
-}
+  }
 
-.modal {
+  .modal {
   display: none; /* Hidden by default */
   position: fixed;
   top: 0;
@@ -1188,26 +1188,26 @@
   align-items: center;
   z-index: 1000;
   animation: fadeIn 0.5s ease-in-out;
-}
+  }
 
-.modal-content {
+  .modal-content {
   background: #fff;
   padding: 20px;
   border-radius: 8px;
   max-width: 500px;
   width: 90%;
-}
+  }
 
-.membership-card h2 {
+  .membership-card h2 {
   text-align: center;
-}
+  }
 
-.membership-card button {
+  .membership-card button {
   width: 100%;
   padding-block: 0.5rem;
-}
+  }
 
-.modal-close {
+  .modal-close {
   margin-top: 20px;
   padding: 10px 20px;
   border: none;
@@ -1215,61 +1215,61 @@
   color: white;
   border-radius: 5px;
   cursor: pointer;
-}
+  }
 
-.modal-close:hover {
+  .modal-close:hover {
   background-color: #005fa3;
-}
+  }
 
-.thankyou-page-body section p {
+  .thankyou-page-body section p {
   font-size: 2rem;
   background-color: #fff;
   padding: 1em 0.75em;
-}
+  }
 
-.summary-box {
+  .summary-box {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 1.5rem;
   margin: 2rem 0;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-}
+  }
 
-.summary-box h2 {
+  .summary-box h2 {
   margin-bottom: 1rem;
   font-size: 1.8rem;
   color: #333;
-}
+  }
 
-.summary-box ul {
+  .summary-box ul {
   list-style-type: none;
   padding: 0;
-}
+  }
 
-.summary-box li {
+  .summary-box li {
   margin-bottom: 0.8rem;
   display: flex;
   gap: 3.5rem;
   border-bottom: 1px solid #eee;
   padding-bottom: 0.5rem;
-}
+  }
 
-.summary-box li strong {
+  .summary-box li strong {
   font-weight: 600;
   color: #555;
-}
+  }
 
-.summary-box li span {
+  .summary-box li span {
   color: #000;
   font-weight: 500;
-}
+  }
 
-.back-home-btn {
+  .back-home-btn {
   display: inline-block;
   margin-top: 1.5rem;
   padding: 0.8rem 1.5rem;
-}
+  }
 
 @keyframes fadeIn {
   from {
