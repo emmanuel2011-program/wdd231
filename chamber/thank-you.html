@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You</title>
- </head>
+    <title>Thank you Page</title>
+    <meta name="author" content="Emmanuel Okoye">
+    <meta name="description" content="The Suleja Chamber of Commerce Join Page">
+    <meta property="og:title" content="Suleja Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://emmanuel2011-program.github.io/wdd231/chamber">
+    <meta property="og:image" content="https://github.com/emmanuel2011-program/wdd231/blob/main/chamber/images/hero-image.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="favicon.ico">
  <body>
+    <!-- Header Section -->
+    <header>
+        <button class="menu-btn" aria-label="Toggle menu button">
+            <svg>
+              <use xlink:href="images/sprite.svg#icon-menu"></use>
+            </svg>
+        </button>
 
+        <div class="logo-box">
+            <a href="index.html">
+                <img src="images/suleja-logo.png" alt="Suleja Business Chamber logo" class="logo" width="323" height="130">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-links">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#icon-home"></use>
+                    </svg> HOME</a></li>
+                <li><a href="directory.html" class="nav-links">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#icon-folder"></use>
+                    </svg> DIRECTORY</a></li>
+                <li><a href="join.html" class="nav-links">
+                    <svg>
+                        <use xlink:href="images/sprite.svg#icon-folder"></use>
+                    </svg> JOIN</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Thank You for Your Submission!</h1>
 
     <p class="thank-you-message">We appreciate your interest. Below are the details you submitted:</p>
@@ -20,9 +66,6 @@
         <p><strong>Membership Level:</strong> <span id="membership"></span></p>
         <p><strong>Date submitted:</strong> <span id="timestamp"></span></p>
     </div>
-    <h2>Membership Levels</h2>
-
-    <div class="membership-cards" id="membership-cards"></div>
 
     <!-- External JavaScript file -->
     <script src="scripts/thankyou.js"></script>
