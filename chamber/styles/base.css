@@ -965,6 +965,9 @@
     .population-info {
       flex-direction: column;
     }
+    .map-iframe {
+      border: 0;
+    }
   
     /* JOIN SECTION */
     .form-container .svg-box {
@@ -1282,7 +1285,5 @@
     transform: scale(1);
   }
   }
-  .map-iframe {
-    border: 0;
-  }
+ 
   
