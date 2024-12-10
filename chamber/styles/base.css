@@ -1282,4 +1282,7 @@
     transform: scale(1);
   }
   }
+  .map-iframe {
+    border: 0;
+  }
   
