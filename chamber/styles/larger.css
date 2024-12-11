@@ -287,6 +287,34 @@
     
   }
 
+    /* Ensure the banner section takes up full width and scales properly */
+  .banner-image-box {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  }
+
+  /* Maintain aspect ratio of images */
+  .banner-image {
+  width: 100%;          /* Allow the image to stretch across the width of the container */
+  height: auto;         /* Automatically adjust the height to maintain aspect ratio */
+  object-fit: cover;    /* This will make sure the image fills the space without distortion */
+  }
+
+  /* Optional: You can add a max-width if you want to limit how large the image can grow */
+  .banner-image-box {
+  max-width: 1200px;    /* Set a maximum width for large screens */
+  margin: 0 auto;       /* Center the container */
+  }
+
+  /* Ensure the bar chart image also maintains its aspect ratio */
+  .sidebar-info img {
+  width: 100%;
+  height: auto;
+  }
+
+
 @media only screen and (min-width: 118.75em) {
   .news-event-section-box,
   .service-card-box,
