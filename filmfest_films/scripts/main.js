@@ -1,3 +1,3 @@
-import { init } from "filmfest_films/js/utils.mjs";
+import { init } from "js/utils.mjs";
 
 document.addEventListener("DOMContentLoaded", init);
