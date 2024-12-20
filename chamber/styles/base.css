@@ -1,6 +1,6 @@
 /* Custom CSS Properties */
 :root {
-    /* Project colors */
+    
     --primary-color: #00113e;
     --secondary-color: #ffbe37;
     --tertiary-color: #d5d6e7;
@@ -1285,5 +1285,6 @@
     transform: scale(1);
   }
   }
+  
  
   
