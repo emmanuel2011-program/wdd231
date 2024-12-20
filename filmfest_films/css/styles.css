@@ -89,7 +89,9 @@ ul {
   margin: 0 auto;
   padding: 0 20px;
 }
-
+.container img {
+  width: 100%;
+}
 .main-header .container {
   display: flex;
   justify-content: space-between;
@@ -374,4 +376,7 @@ section h2 {
     width: 100%;
     margin-right: 0;
   }
-}
+  }
+  .main-header {
+    margin: 1rem;
+  }
