@@ -181,9 +181,13 @@
   scroll-snap-align: center center;
 }
 .swiper-virtual .swiper-slide {
-  -webkit-backface-visibility: hidden;
-  transform: translateZ(0);
+  -webkit-backface-visibility: hidden; /* For Webkit-based browsers */
+  -moz-backface-visibility: hidden;    /* For Firefox */
+  -ms-backface-visibility: hidden;     /* For older versions of Internet Explorer */
+  backface-visibility: hidden;         /* Standard property */
+  transform: translateZ(0);            /* Ensures the element is rendered in 3D space */
 }
+
 .swiper-virtual.swiper-css-mode .swiper-wrapper::after {
   content: '';
   position: absolute;
@@ -455,9 +459,12 @@ button.swiper-pagination-bullet {
 .swiper-scrollbar {
   border-radius: 10px;
   position: relative;
-  -ms-touch-action: none;
+  -ms-touch-action: none; /* For Internet Explorer */
+  touch-action: none;      /* Standard property for modern browsers */
   background: rgba(0, 0, 0, 0.1);
 }
+
+
 .swiper-scrollbar-disabled > .swiper-scrollbar,
 .swiper-scrollbar.swiper-scrollbar-disabled {
   display: none !important;
