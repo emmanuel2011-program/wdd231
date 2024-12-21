@@ -1,4 +1,4 @@
-import { init } from "filmfest_films/js/mil.mjs";
+import { init } from "/mil.mjs";
 
 document.addEventListener('DOMContentLoaded', () => {
     init();
