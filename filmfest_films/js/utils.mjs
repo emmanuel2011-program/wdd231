@@ -360,18 +360,18 @@ function displaySearchResults(results) {
             src="images/no-image.jpg"
             class="card-img-top"
              alt="${
-               global.search.type === "film" ? result.title : result.name
+               global.search.type === "movie" ? result.title : result.name
              }"
           />`
             }
           </a>
           <div class="card-body">
             <h5 class="card-title">${
-              global.search.type === "film" ? result.title : result.name
+              global.search.type === "movie" ? result.title : result.name
             }</h5>
             <p class="card-text">
               <small class="text-muted">Release: ${
-                global.search.type === "film"
+                global.search.type === "movie"
                   ? result.release_date
                   : result.first_air_date
               }</small>
