@@ -307,10 +307,7 @@ function displayBackgroundImage(type, backgroundPath) {
   }
 }
 
-// Search Movies/Shows
-function search() {
-    // Your search logic here
-}
+
 
 async function search() {
   const queryString = window.location.search;
