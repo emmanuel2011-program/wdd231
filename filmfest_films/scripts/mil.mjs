@@ -72,6 +72,9 @@ export const renderTemplateToView = (
 // };
 
 // Display 20 most popular movies
+
+console.log("JavaScript is running");
+
 async function displayPopularMovies() {
   const { results } = await fetchAPIData("movie/popular");
   console.log(results);
